@@ -1,0 +1,41 @@
+[project]
+name = "shortcut-models"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "absl-py>=2.3.0",
+    "chex>=0.1.82",
+    "cython<3",
+    "diffusers>=0.33.1",
+    "distrax==0.1.4",
+    "einops>=0.8.1",
+    "fabric>=3.2.2",
+    "flax>=0.7.5",
+    "imageio>=2.37.0",
+    "jax[cuda12]>=0.4.28",
+    "jaxlib>=0.4.26",
+    "jaxtyping>=0.3.2",
+    "libtmux>=0.46.2",
+    "matplotlib>=3.10.3",
+    "ml-collections>=1.1.0",
+    "moviepy>=2.2.1",
+    "numba>=0.61.2",
+    "numpy>=1.26.4",
+    "opensimplex>=0.4.5.1",
+    "opt-einsum>=3.4.0",
+    "optax>=0.1.7",
+    "orbax>=0.1.9",
+    "plotly>=6.1.2",
+    "pygame>=2.6.1",
+    "scipy==1.12.0",
+    "tabulate>=0.9.0",
+    "tensorflow-cpu>=2.18.0",
+    "tensorflow-datasets>=4.9.9",
+    "tensorflow-probability==0.22.0",
+    "termcolor>=3.1.0",
+    "threadpoolctl==3.1.0",
+    "typeguard>=4.0.0",
+    "wandb>=0.19.11",
+]
